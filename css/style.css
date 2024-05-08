@@ -1,0 +1,65 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 10px;
+    background: rgb(4, 4, 138);
+    text-align: center;
+}
+
+header h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+}
+
+main{
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
+}
+
+.box{
+    padding: 10px;
+    background: rgb(2, 2, 87);
+    width: 25vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.box .display{
+    width: 90%;
+    height: 15%;
+    background: rgb(189, 189, 189);
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+    font-size: xx-large;
+}
+
+.tecla{
+    margin: 5px;
+    width: 5vw;
+    height: 10vh;
+    color: white;
+    background: rgb(32, 32, 32);
+    font-size: 32px;
+}
+
+.teclado .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.teclado #igual{
+    grid-template-rows: span 2;
+}
+

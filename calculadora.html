@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora Online</h1>
+    </header>
+    <main>
+        <div class="box">
+            <div class="display">
+                entrada
+            </div>
+            <div class="teclado">
+                <div class="row">
+                    <button onclick="apagarDigito()" class="tecla">
+                        del
+                    </button>
+                    <button onclick="limparTela()" class="tecla">
+                        C
+                    </button>
+                    <button value="+" class="tecla" id="operador+">
+                        +
+                    </button>
+                    <button value="-" class="tecla" id="operador-">
+                        -
+                    </button>
+                </div>
+                <div class="row">
+                    <button value="9" class="tecla" id="number9">
+                        9
+                    </button>
+                    <button value="8" class="tecla" id="number8">
+                        8
+                    </button>
+                    <button value="7" class="tecla" id="number7">
+                        7
+                    </button>
+                    <button value="*" class="tecla" id="operador*">
+                        *
+                    </button>
+                </div>
+                <div class="row">
+                    <button value="6" class="tecla" id="number6">
+                        6
+                    </button>
+                    <button value="5" class="tecla" id="number5">
+                        5
+                    </button>
+                    <button value="4" class="tecla" id="number4">
+                        4
+                    </button>
+                    <button value="/" class="tecla" id="operador/">
+                        /
+                    </button>
+                </div>
+                <div class="row">
+                    <button value="3" class="tecla" id="number3">
+                        3
+                    </button>
+                    <button value="2" class="tecla" id="number2">
+                        2
+                    </button>
+                    <button value="1" class="tecla" id="number1">
+                        1
+                    </button>
+                    <button value="="n  class="tecla" id="operador">
+                        =
+                    </button>
+                </div>
+                <div class="row">
+                    <button class="tecla">
+                        ,
+                    </button>
+                    <button value="0" class="tecla" id="number0">
+                        0
+                    </button>
+                    <button class="tecla">
+                        .
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="index.js"></script>
+</body>
+</html>
